@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+.body h1 {
+    height: fit-content;
+    margin: 30px 0px 36px 0px;
+}
+.body p {
+    height: fit-content;
+    margin: 10px 0px 10px 0px;
+}
+.body ol {
+    height: fit-content;
+}
+.body li {
+    height: fit-content;
+    margin: 10px 0px 10px 0px;
+}

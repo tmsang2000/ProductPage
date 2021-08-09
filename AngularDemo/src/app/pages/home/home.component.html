@@ -1,0 +1,64 @@
+<div class="body">
+    <div class="left-body">
+      <!-- {data.map(i => (
+        <div class="box">
+          <p>
+            {i.title}
+          </p>
+        </div>
+      ))} -->
+      <!-- {{data[0].title}} -->
+      <div class="box" (click)="onClick(0)">
+        <p>
+          The Flight
+        </p>
+      </div>
+      <div class="box" (click)="onClick(1)">
+        <p>
+          The City
+        </p>
+      </div>
+      <div class="box" (click)="onClick(2)">
+        <p>
+          The Island
+        </p>
+      </div>
+      <div class="box" (click)="onClick(3)">
+        <p>
+          The Food
+        </p>
+      </div>
+    </div>
+    <div class="right-body">
+      <h1>
+        {{data[selected].title}}
+      </h1>
+      <p>
+        {{data[selected].content}}
+      </p>
+      <p>
+        {{data[selected].content}}
+      </p>
+      <p>
+        {{data[selected].content}}
+      </p>
+      <p>
+        {{data[selected].content}}
+      </p>
+      <p>
+        {{data[selected].content}}
+      </p>
+      <p>
+        {{data[selected].content}}
+      </p>
+      <p>
+        {{data[selected].content}}
+      </p>
+      <p>
+        {{data[selected].content}}
+      </p>
+      <p>
+        {{data[selected].content}}
+      </p>  
+    </div>
+</div>

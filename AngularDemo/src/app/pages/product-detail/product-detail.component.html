@@ -1,0 +1,36 @@
+<div class="product-detail-container">
+    <div class="left-body">
+        <div class="img-box">
+            <div class="img-box-title">
+                <p> {{data.name}} </p>
+            </div>
+            <div class="img-box-content">
+                <div class="img-box-content-left">
+                    <div class="icon-content">
+                        <mat-icon> arrow_back </mat-icon>
+                    </div>
+                </div>
+                <div class="img-box-content-center">
+                    <img mat-card-image [src]="data.img"/>
+                </div>
+                <div class="img-box-content-right">
+                    <div class="icon-content">
+                        <mat-icon> arrow_forward </mat-icon>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="right-body">
+        <div class="right-body-title">
+            <h1>
+                {{data.name}}
+            </h1>
+        </div>
+        <div class="right-body-content">
+            <p>
+                {{data.description}}
+            </p>
+        </div>
+    </div>
+</div>

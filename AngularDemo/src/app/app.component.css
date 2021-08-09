@@ -1,0 +1,19 @@
+#container {
+    width: 100%;
+    min-height: 100vh;
+}
+.header {
+    /* flex-shrink: 0; */
+    height: 20vh;
+    width: 100%;
+    display: flex;
+}
+.router {
+    min-height: 60vh;
+    width: 100%;
+}
+.footer {
+    height: 20vh;
+    width: 100%;
+    display: flex;
+}

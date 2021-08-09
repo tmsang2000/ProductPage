@@ -1,0 +1,97 @@
+.products-container {
+    width: 85vw;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.products-header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 5vh;
+    display: flex;
+    flex-direction: column;
+}
+.menu {
+    height: 8vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    z-index: 99;
+    background-color: white;
+    position: sticky;
+    top: 10px;
+    width: 100%;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    display: flex;
+    align-items: center;
+}
+.menu div {
+    flex: 1 1 50%;
+}
+.menu-option {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.menu-option div {
+    flex: 0 0 calc(20% - 10px);
+    font-size: 1.12rem;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+.menu-option div:hover {
+    cursor: pointer;
+    border: 1px solid gray;
+}
+.menu-action {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+.menu-action div {
+    flex: 0 0 calc(20% - 10px);
+    font-size: 1.12rem;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    user-select: none;
+}
+.menu-action div p {
+    padding: 0px;
+    margin: 0px;
+    margin-left: 10px;
+}
+.menu-action div:hover {
+    cursor: pointer;
+    border: 1px solid gray;
+}
+.products-body {
+    display: flex;
+    flex-wrap: wrap;
+}
+.product {
+    width: calc(21.25vw - 20px);
+    height: 400px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    user-select: none;
+    background-color: white;
+}
+.product:hover {
+    border: 1px solid black;
+    margin-left: 19px;
+    margin-right: -1px;
+    margin-bottom: -1px;
+    margin-top: 19px;
+    cursor: pointer;
+}
